@@ -7,4 +7,4 @@ open source hardware for makers  sjtu , 2022 fall
 4. Hello, I am Linghai Li
 5. Hello, I am Phil Liang
 6. Hello, I am Shukai Liu
-7. 
+7. Hello, I am Zzh
