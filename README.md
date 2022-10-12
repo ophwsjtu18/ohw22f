@@ -11,4 +11,4 @@ open source hardware for makers  sjtu , 2022 fall
 8. Hello, I am Llldj;
 9. Hello, I am lzz
 10. Hello, I am Wll
-11. 11.Hello, I am Jintao Zhao
+11. Hello, I am Jintao Zhao
