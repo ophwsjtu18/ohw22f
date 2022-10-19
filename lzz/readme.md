@@ -39,7 +39,7 @@ cv2.destroyAllWindows()
 <img src="./Stand.jpg" width="200px">
 
 源代码如下，详见[test2.ipynb](./test2.ipynb)最后一段代码Homework2
-'''
+```
 import numpy as np
 import cv2
 face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
@@ -78,4 +78,4 @@ while(True):
 
 cap.release()
 cv2.destroyAllWindows()
-'''
+```
