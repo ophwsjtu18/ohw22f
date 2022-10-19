@@ -1,3 +1,3 @@
 Assignment 1:
 
-![作业1](/zzh/Assignment1.png "")
+![作业1](/zzh/work1.png "")
