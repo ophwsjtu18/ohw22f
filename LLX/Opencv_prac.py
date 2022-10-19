@@ -13,4 +13,5 @@ for i in range(0,3):
 cv2.namedWindow('Image',cv2.WINDOW_NORMAL)
 cv2.imshow('Image', img)
 cv2.waitKey(0)
+cv2.imwrite('Result.png',img)
 cv2.destroyAllWindows()
