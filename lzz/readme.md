@@ -32,10 +32,7 @@ cv2.destroyAllWindows()
 人脸控制小车
 前后左右分别如下图所示
 
-<img src="./Forward.jpg" width="200px"><img src="./Back.jpg" width="200px">
-<img src="./Left.jpg" width="200px">
-<img src="./Right.jpg" width="200px">
-<img src="./Stand.jpg" width="200px">
+<img src="./Forward.jpg" width="200px"><img src="./Back.jpg" width="200px"><img src="./Left.jpg" width="200px"><img src="./Right.jpg" width="200px"><img src="./Stand.jpg" width="200px">
 
 源代码如下，详见[test2.ipynb](./test2.ipynb)最后一段代码Homework2
 ```
