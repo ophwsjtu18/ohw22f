@@ -6,6 +6,7 @@
 效果图
 <img src="./tiger1.jpeg" width="1000px">
 
+源代码如下，详见[test1.ipynb](./test1.ipynb)
 ```
 img=cv2.resize(img,(168*5,105*5))
 cv2.imshow("Cats",img)
