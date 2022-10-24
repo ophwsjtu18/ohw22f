@@ -1,10 +1,10 @@
 '''
 Author: linin00
 Date: 2022-10-19 20:01:33
-LastEditTime: 2022-10-19 21:25:37
+LastEditTime: 2022-10-24 14:33:03
 LastEditors: linin00
 Description: 
-FilePath: /openhw/10.19/task5/op.py
+FilePath: /ohw22f/LJ/10.19/task5/op.py
 
 '''
 import numpy as np
@@ -101,16 +101,16 @@ def handleDir(img, dir) :
   else :
     print("something wrong")
 
+if __name__ == "__main__":
+  cap = cv2.VideoCapture(0)
+  while(True):
+    ret, frame = cap.read()
+    img = cv2.flip(frame, 1)
+    img, dir = face2direction(img)
+    handleDir(img, dir)
+    cv2.imshow('frame', img)
 
-cap = cv2.VideoCapture(0)
-while(True):
-  ret, frame = cap.read()
-  img = cv2.flip(frame, 1)
-  img, dir = face2direction(img)
-  handleDir(img, dir)
-  cv2.imshow('frame', img)
-
-  if cv2.waitKey(1) & 0xFF == ord('q'):
-    break
-cap.release()
-cv2.destroyAllWindows()
+    if cv2.waitKey(1) & 0xFF == ord('q'):
+      break
+  cap.release()
+  cv2.destroyAllWindows()
