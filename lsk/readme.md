@@ -3,4 +3,10 @@
 ![第一次作业](./HW01/result.png "第一次作业")
 ## Homework2
 # 效果视频
-<iframe height=498 width=510 src="./HW02/result.mp4">
+<iframe 
+    height=450 
+    width=800 
+    src="" 
+    frameborder=0 
+    allowfullscreen>
+</iframe>
