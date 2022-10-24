@@ -1,6 +1,6 @@
 ## Homework1
 # 效果图
-![第一次作业](./HW01/result.png "第一次作业")
+![第一次作业](./HW01/result.jpg "第一次作业")
 ## Homework2
 # 效果视频
 <iframe 
