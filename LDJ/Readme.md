@@ -1,5 +1,5 @@
-Here is my homework for ophwsjtu,
-I am LDJ
+# I am LDJ ,Here is my homework for ophwsjtu,I will continue updating my homework here
+# my first homework
 ![Image text](https://github.com/lllldj/myproject/blob/main/tiger_HW01.png "HW01")
 # Here is my howework for the 2nd week's class
 https://user-images.githubusercontent.com/90687447/197977338-31528b2e-9a9d-4caf-8973-0126f539d5d3.mp4
