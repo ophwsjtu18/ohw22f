@@ -6,6 +6,7 @@ services:
     image: linin00/bukkit
     ports:
       - "25565:25565"
+      - "4711:4711"
     restart: always
     # volumes:
     #   - "/data"
