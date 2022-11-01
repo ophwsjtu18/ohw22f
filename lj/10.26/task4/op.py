@@ -1,19 +1,10 @@
 '''
 Author: linin00
 Date: 2022-10-26 18:41:23
-LastEditTime: 2022-10-26 19:00:50
+LastEditTime: 2022-11-01 22:23:29
 LastEditors: linin00
 Description: 
 FilePath: /lj/10.26/task4/op.py
-
-'''
-'''
-Author: linin00
-Date: 2022-10-19 20:01:33
-LastEditTime: 2022-10-24 14:33:03
-LastEditors: linin00
-Description: 
-FilePath: /ohw22f/LJ/10.19/task5/op.py
 
 '''
 import numpy as np

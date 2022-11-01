@@ -1,10 +1,10 @@
 '''
 Author: linin00
-Date: 2022-10-26 18:42:59
-LastEditTime: 2022-11-01 21:39:01
+Date: 2022-11-01 21:39:22
+LastEditTime: 2022-11-01 21:39:23
 LastEditors: linin00
 Description: 
-FilePath: /lj/10.26/task4/MXMqtt.py
+FilePath: /lj/utils/MXMqtt.py
 
 '''
 import paho.mqtt.client as mqtt
