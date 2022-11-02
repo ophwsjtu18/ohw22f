@@ -1,10 +1,10 @@
 '''
 Author: linin00
 Date: 2022-11-01 08:44:42
-LastEditTime: 2022-11-01 22:40:09
+LastEditTime: 2022-11-02 12:18:58
 LastEditors: linin00
 Description: 
-FilePath: /lj/11.01/demo1.py
+FilePath: /lj/11.01/hw.py
 
 '''
 from mcpi.minecraft import Minecraft
