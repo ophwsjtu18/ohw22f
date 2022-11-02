@@ -1,7 +1,7 @@
 '''
 Author: linin00
 Date: 2022-11-02 12:00:55
-LastEditTime: 2022-11-02 13:12:45
+LastEditTime: 2022-11-02 18:05:01
 LastEditors: linin00
 Description: 
 FilePath: /lj/utils/Hand.py
@@ -11,6 +11,7 @@ FilePath: /lj/utils/Hand.py
 import cv2
 import mediapipe as mp
 import time
+from cv2Face2Dir import Direction
 
 class HandDetector():
   def __init__(self,
@@ -58,6 +59,38 @@ class HandDetector():
           if draw :
             cv2.circle(img, (cx, cy), 25, (255, 0, 255), cv2.FILLED)
     return res
+
+
+class Hand2Direction():
+  def __init__(self):
+    self.__hand = HandDetector()
+  def __help(self, shape, pos):
+    w, h = shape
+    x, y = pos
+    p1 = (w/3, h/3)
+    p2 = (2 * w/3, h/3)
+    p3 = (w/3, 2 * h/3)
+    p4 = (2 * w/3, 2 * h/3)
+    if x > p1[0] and x < p2[0] and y < p3[1] and y > p1[1]:
+      return Direction.STANDBY
+    if x < p1[0] :
+      if y > p3[1] and y < p1[1]:
+        return Direction.LEFT
+      if y > p1[1] and x/y < w/h :
+          return Direction.LEFT
+      if y < p3[1] and x/(h - y) < w/h :
+          return Direction.LEFT
+    if x > p2[0]:
+      if y > p3[1] and y < p1[1]:
+        return DIRECTION.RIGHT
+      if y > p1[1] and (w - x)/h < w/h :
+          return Direction.RIGHT
+      if y < p3[1] and (w - x)/(h - y) < w/h :
+          return Direction.RIGHT
+    if y > p3[1] :
+      return Direction.BACKWARD
+    if y < p1[1] :
+      return Direction.FORWARD
 
 if __name__ == '__main__':
   cap = cv2.VideoCapture(0)
