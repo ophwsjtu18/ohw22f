@@ -28,3 +28,14 @@
 ![左边亮](./HW03/result/left.jpg "左边亮")
 ### 右边亮
 ![右边亮](./HW03/result/right.jpg "右边亮")
+# Homework4
+>利用mediapipe，定义上下左右几个手势，指挥我的世界玩家前后左右移动
+## 效果图
+### 前进
+![前进](./HW04/result/forward.jpg "前进")
+### 向左
+![向左](./HW04/result/left.jpg "向左")
+### 向右
+![向右](./HW04/result/right.jpg "向右")
+### 后退
+![后退](./HW04/result/backward.jpg "后退")
