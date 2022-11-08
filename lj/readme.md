@@ -1,5 +1,12 @@
 # lianjie
-
+## homework4
+[代码位置](./11.08/homework/homework.py)
+定义了手势1为前进，手势2为后退，手势good为向右，手势5为向左
+### 效果
+![](./11.08/homework/result/forward.png)
+![](./11.08/homework/result/backward.png)
+![](./11.08/homework/result/left.png)
+![](./11.08/homework/result/right.png)
 ## homework3
 [代码位置](./11.01/hw.py)
 ### 效果
