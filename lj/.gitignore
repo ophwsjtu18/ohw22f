@@ -2,3 +2,5 @@
 **/.DS_Store
 **/minecraft_m3_all
 **/__pycache__
+**/yolov3
+**/yolov3Dir
