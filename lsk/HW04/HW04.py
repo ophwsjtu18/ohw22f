@@ -2,17 +2,17 @@ import cv2
 import mediapipe as mp
 from math import sqrt
 import mcpi.minecraft as minecraft
-import pyautogui as ui
+import pynput
 
-ui.FAILSAFE = False
-ui.PAUSE = 0.01
+
 LEFT = 1
 RIGHT = 2
 FORWARD = 3
 BACKWARD = 4
 STANDBY = 5
 
-# mc = minecraft.Minecraft.create()
+ctr = pynput.keyboard.Controller()
+mc = minecraft.Minecraft.create()
 mpHands = mp.solutions.hands
 hands = mpHands.Hands()
 mpDraw = mp.solutions.drawing_utils
@@ -107,32 +107,31 @@ def display(dir):
 
 
 def direction2move(dir):
+    pos = mc.player.getPos()
+    mc.postToChat("x:"+str(pos.x)+"  y:"+str(pos.y)+"  z:"+str(pos.z))
     if dir == FORWARD:
-        ui.keyDown('W')
-        ui.keyUp('A')
-        ui.keyUp('S')
-        ui.keyUp('D')
+        ctr.press('w')
+        ctr.release('a')
+        ctr.release('s')
+        ctr.release('d')
     elif dir == BACKWARD:
-        ui.keyDown('S')
-        ui.keyUp('W')
-        ui.keyUp('A')
-        ui.keyUp('D')
+        ctr.press('s')
+        ctr.release('a')
+        ctr.release('w')
+        ctr.release('d')
     elif dir == LEFT:
-        ui.keyDown('A')
-        ui.keyUp('W')
-        ui.keyUp('S')
-        ui.keyUp('D')
+        ctr.press('a')
+        ctr.release('w')
+        ctr.release('s')
+        ctr.release('d')
     elif dir == RIGHT:
-        ui.keyDown('D')
-        ui.keyUp('W')
-        ui.keyUp('A')
-        ui.keyUp('S')
+        ctr.press('d')
+        ctr.release('a')
+        ctr.release('s')
+        ctr.release('w')
     else:
-        ui.keyUp('W')
-        ui.keyUp('A')
-        ui.keyUp('S')
-        ui.keyUp('D')
-    return
+        pos = mc.player.getPos()
+    mc.player.setPos(pos)
 
 
 cap = cv2.VideoCapture(1)
