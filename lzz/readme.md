@@ -79,8 +79,6 @@ cv2.destroyAllWindows()
 ## 第三次作业
 挑战3：找一个灯泡的图片，用opencv画上下左右4个灯泡。连接到com13上作为命令接收方。 人脸检测作为发送方。 制作一个仿真的人脸识别通过串口控制上下左右4盏灯的仿真系统。 
 
-<img src="./HW3/left.jpg" width="500px"><img src="./HW3/right.jpg" width="500px">
-
-<img src="./HW3/top.jpg" width="200px"><img src="./HW3/down.jpg" width="200px">
+<img src="./HW3/left.jpg" width="500px"><img src="./HW3/right.jpg" width="500px"><img src="./HW3/top.jpg" width="500px"><img src="./HW3/down.jpg" width="500px">
 
 源代码详见[lzz_receive.ipynb](./HW3/lzz_receive.ipynb)与[lzz_transmit.ipynb](./HW3/lzz_transmit.ipynb)
