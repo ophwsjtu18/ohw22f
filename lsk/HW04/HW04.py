@@ -107,31 +107,30 @@ def display(dir):
 
 
 def direction2move(dir):
-    pos = mc.player.getPos()
-    mc.postToChat("x:"+str(pos.x)+"  y:"+str(pos.y)+"  z:"+str(pos.z))
     if dir == FORWARD:
+        mc.postToChat("forward")
         ctr.press('w')
         ctr.release('a')
         ctr.release('s')
         ctr.release('d')
     elif dir == BACKWARD:
+        mc.postToChat("backward")
         ctr.press('s')
         ctr.release('a')
         ctr.release('w')
         ctr.release('d')
     elif dir == LEFT:
+        mc.postToChat("left")
         ctr.press('a')
         ctr.release('w')
         ctr.release('s')
         ctr.release('d')
     elif dir == RIGHT:
+        mc.postToChat("right")
         ctr.press('d')
         ctr.release('a')
         ctr.release('s')
         ctr.release('w')
-    else:
-        pos = mc.player.getPos()
-    mc.player.setPos(pos)
 
 
 cap = cv2.VideoCapture(1)
