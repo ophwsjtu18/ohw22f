@@ -1,4 +1,15 @@
 # lianjie
+## homework5
+### part1
+为提高准度，使用手势指挥灯的亮灭
+[代码位置: server](./11.14/task3/server.py)
+[代码位置: client](./11.14/task3/client.py)
+#### 效果
+![](./11.14/task3/result/forward.png)
+![](./11.14/task3/result/backward.png)
+![](./11.14/task3/result/left.png)
+![](./11.14/task3/result/right.png)
+![](./11.14/task3/result/standby.png)
 ## homework4
 [代码位置](./11.08/homework/homework.py)
 定义了手势1为前进，手势2为后退，手势good为向右，手势5为向左
