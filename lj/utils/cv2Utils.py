@@ -1,7 +1,7 @@
 '''
 Author: linin00
 Date: 2022-11-08 15:10:34
-LastEditTime: 2022-11-08 15:17:36
+LastEditTime: 2022-11-14 20:25:04
 LastEditors: linin00
 Description: 
 FilePath: /lj/utils/cv2Utils.py
@@ -20,4 +20,4 @@ class Camera:
     return img
 
 def waitKey(time, key):
-  return cv2.waitKey(1) & 0xff == ord(key)
+  return cv2.waitKey(time) & 0xff == ord(key)
