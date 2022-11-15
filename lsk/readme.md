@@ -42,3 +42,38 @@
 ![向右](./HW04/result/right.jpg "向右")
 ### 后退
 ![后退](./HW04/result/backward.jpg "后退")
+
+# Homework5
+>任务1：找一个灯泡的图片，用opencv画上下左右4个灯泡。连接到com13上作为命令接收方。 人脸检测作为发送方。 制作一个仿真的人脸识别通过串口控制上下左右4盏灯的仿真系统。 
+>任务2：利用binvox命令，将你设计的3d物体的stl导入我的世界
+## 任务1效果图
+### 上方亮
+![上方亮](./HW05/Task1/result/top.jpg "上方亮")
+### 下方亮
+![下方亮](./HW05/Task1/result/down.jpg "下方亮")
+### 左边亮
+![左边亮](./HW05/Task1/result/left.jpg "左边亮")
+### 右边亮
+![右边亮](./HW05/Task1/result/right.jpg "右边亮")
+## 任务2效果图
+![效果图](./HW05/Task2/result/result.jpg "效果图")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
