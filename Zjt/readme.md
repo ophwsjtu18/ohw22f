@@ -10,3 +10,5 @@
 ###### Assignemnt5:led serial and build circle
 ![led_serial.png](/Zjt/homework05/led_serial.png)
 ![circle.png](/Zjt/homework05/circle.png)
+###### Assignemnt6:build home
+![buildhome.png](/Zjt/homework06/homework06.png)
