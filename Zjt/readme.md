@@ -12,3 +12,5 @@
 ![circle.png](/Zjt/homework05/circle.png)
 ###### Assignemnt6:build home
 ![buildhome.png](/Zjt/homework06/homework06.png)
+###### Assignemnt7:cookrobot
+![cookrobot.png](/Zjt/homework07/cookrobot.png)
