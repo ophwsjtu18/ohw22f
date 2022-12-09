@@ -1,0 +1,37 @@
+logger: # 日志等级，等级越低越详细 / FATAL = CRITICAL = CRITICAL = 50 / ERROR = 40 / WARN = WARNING = 30 / INFO = 20 / DEBUG = 10 / NOTSET = 0
+  level: 20
+media: # 媒体模块配置项(播放录音)需要手动安装Pyaudio库 / isUse: 是否启用(bool)
+  isUse: true
+pinyin: # 拼音转换配置项 / isUse: 是否启用(bool)
+  isUse: true
+minecraft: # 我的世界配置项 / isUse: 是否启用(bool) / host: 服务器地址 / post: 服务器端口
+  isUse: true
+  host: localhost
+  post: 4711
+mqtt: # MQTT配置项 / isUse: 是否启用(bool) / host: 服务器地址 / post: 服务器端口
+  isUse: false
+  host: mqtt.16302.com
+  post: 1883
+serial: # 串口配置项 / isUse: 是否启用(bool) / bps: 波特率 / com: 串口号（缺省时，默认选择最后一个串口）
+  isUse: false
+  bps: 9600
+  com: ''
+speech: # 百度语音api / isUse: 是否启用(bool)
+  isUse: true
+  APP_ID: '25496064'
+  API_KEY: A6fXM6nA1B8GY2txDIUCXYyu
+  SECRET_KEY: 4qb3jX1C8ue1rhwMkp27kzmrxLTli9G8
+nlp: # 百度自然语言api / isUse: 是否启用(bool)
+  isUse: true
+  API_KEY: A6fXM6nA1B8GY2txDIUCXYyu
+  SECRET_KEY: 4qb3jX1C8ue1rhwMkp27kzmrxLTli9G8
+heweather: # 和风天气配置项 / isUse: 是否启用(bool) / city: 城市地名 / key: 密钥
+  isUse: false
+  city: 上海
+  key: 3bffba48276c408b9107e275a51f111e
+netease: # 网易云音乐配置项 / isUse: 是否启用(bool) / baseUrl: 网易云音乐API地址
+  isUse: false
+  baseUrl: http://sliot.top:3000
+naixing: # 氖星知识库配置项 / isUse: 是否启用(bool) / robotId: 氖星ID
+  isUse: false
+  robotId: 4595
