@@ -67,5 +67,11 @@
 ![smallFakedonut](./Assignment221109/Output/smallFakedonut.png "smallFakedonut")
 
 # Assignment 6
+>Use setblock and read csv to create houses with entering greetings.
+## Rendering
+### Houses
+![Houses](./Assignment221116/Output/Houses.png "Houses")
+### Message
+![Message](./Assignment221116/Output/Message.png "Message")
 
 # Assignment 7
