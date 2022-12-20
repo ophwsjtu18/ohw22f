@@ -7,5 +7,5 @@ Assignment4:
 ![alt text](https://github.com/ophwsjtu18/ohw22f/blob/main/lzl/Assignment221102/Output/Backward.png "Title")
 ![alt text](https://github.com/ophwsjtu18/ohw22f/blob/main/lzl/Assignment221102/Output/Forward.png "Title")
 ![alt text](https://github.com/ophwsjtu18/ohw22f/blob/main/lzl/Assignment221102/Output/Left.png "Title")
-![alt text](https://github.com/ophwsjtu18/ohw22f/blob/main/lzl/Assignment221102/Output/Backward.png "Title")
+![alt text](https://github.com/ophwsjtu18/ohw22f/blob/main/lzl/Assignment221102/Output/Right.png "Title")
 ###
