@@ -59,4 +59,13 @@
 ![Right](./Assignment221109/Output/Right.png "Right")
 
 ## Task 2
+>Use binvox to import my stl-file into minecraft
+## Rendering
+### Big one 1* undersampled*
+![bigFakedonut](./Assignment221109/Output/bigFakedonut.png "bigFakedonut")
+### Small one 2* undersampled*
+![smallFakedonut](./Assignment221109/Output/smallFakedonut.png "smallFakedonut")
 
+# Assignment 6
+
+# Assignment 7
