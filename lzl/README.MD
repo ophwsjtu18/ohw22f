@@ -46,4 +46,17 @@
 ![Right](./Assignment221102/Output/Right.png "Right")
 
 # Assignment 5
->
+## Task 1
+>Use openGL to draw 4 bulbs, connect them to COM13, and receive signal from face-detection.
+## Rendering
+### Up
+![Up](./Assignment221109/Output/Up.png "Up")
+### Down
+![Down](./Assignment221109/Output/Down.png "Down")
+### Left
+![Left](./Assignment221109/Output/Left.png "Left")
+### Right
+![Right](./Assignment221109/Output/Right.png "Right")
+
+## Task 2
+
